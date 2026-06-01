@@ -90,7 +90,7 @@ export function formatRegistryItems(
         ? `**Files:** ${item.files.length} file(s)`
         : "",
       item.dependencies && item.dependencies.length > 0
-        ? `**Dependencies:** ${item.dependencies.join(", ")}`
+        ? ` **Dependencies:** ${item.dependencies.join(", ")}`
         : "",
       item.devDependencies && item.devDependencies.length > 0
         ? `**Dev Dependencies:** ${item.devDependencies.join(", ")}`
