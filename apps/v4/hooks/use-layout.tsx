@@ -11,6 +11,7 @@ interface LayoutProviderProps {
   storageKey?: string
   attribute?: string | string[]
   value?: Record<string, string>
+  test?: string
 }
 
 interface LayoutProviderState {
